@@ -5,8 +5,8 @@
 }
 
 .container{
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family:monospace,sans-serif;
+    font-weight:950;
     position: relative;
 }
 
@@ -32,12 +32,22 @@ li{
 
 .bg-green{
     background-color: green;
+   
 }
 
 .bg-yellow{
     background-color: yellow;
 
 }
+
+.yellow{
+    color: yellow;
+}
+
+.green{
+    color: green;
+}
+
 
 header{
     justify-content: end;
@@ -56,3 +66,21 @@ header nav ul li{
 .products{
     height: 100vh;
 }
+
+article{
+    justify-content: center;
+    align-items: center;
+}
+
+div.shoes{
+    flex-direction: column;
+    padding-bottom: 8rem;
+    font-size: x-large;
+}
+
+div.shoes>h1{
+        font-size: 3rem;
+        text-align: center;
+    
+}
+

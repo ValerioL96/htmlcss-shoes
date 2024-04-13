@@ -4,3 +4,55 @@
     box-sizing: border-box;
 }
 
+.container{
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    background-color: white;
+    border:solid transparent;
+    padding: .5rem .8rem;
+    border-radius: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.bg-red{
+    background-color: red;
+
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-yellow{
+    background-color: yellow;
+
+}
+
+header{
+    justify-content: end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: transparent;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.products{
+    height: 100vh;
+}
